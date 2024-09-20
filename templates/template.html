@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <mate charest="utf-8" />
+    <title>PDF</title>
+</head>
+
+<body>
+    <h1>DETAILS BILL #{{this.bill_id}}</h1>
+    <h1>TOTAL PRICE: {{this.bill_total_price}}</h1>
+    <ul>
+        {{#each detail}}
+        <li>Place name: {{this.place_name}}</li>
+        <li>Products name: {{this.products_name}}</li>
+        <li>Products price: {{this.products_price}}</li>
+        <br>
+        {{/each}}
+    </ul>
+</body>
+
+</html>

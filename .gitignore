@@ -1,0 +1,44 @@
+# IDE files
+.idea
+.vscode
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Users Environment Variables
+.lock-wscript
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Mac OS
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.nfs*
+
+api/test\.html
+
+api/app\.default\.js
+
+api/db/index\.default\.js
+
+api/node_modules/
+
+node_modules/
+
+uploads/images
